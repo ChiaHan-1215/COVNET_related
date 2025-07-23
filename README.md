@@ -13,7 +13,7 @@ The extracted GT of interest genes from GTEx WGS vcf file is located: `/Volumes/
 ------
 
 ## Code:
-`bcftool_extract_vcf.sh` using bcftools to extract region of interest from vcf.gz file
+`bcftools_extract_region.sh` using bcftools to extract region of interest from vcf.gz file
 `vcf_GT_extract.R` extract GT of gene exons and save as .csv file
 
 ------
