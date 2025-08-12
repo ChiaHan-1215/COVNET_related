@@ -32,8 +32,8 @@
     
 Sample ID|Flowcell|
 ---------|--------|
-EXAMPLE-SAMPLE-136|B00FLOWCELL|
-EXAMPLE-SAMPLE-003|B00FLOWCELL|
+TCGA_1|B00FLOWCELL|
+TCGA_2|B00FLOWCELL|
 
   - `set1.json`, copy and renamed from `batch_builder/templates/project_parameters.json`, edit to the file indicated above, also need to download referecne bundle.
     
