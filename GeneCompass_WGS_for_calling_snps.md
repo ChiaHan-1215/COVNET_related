@@ -66,14 +66,16 @@ Now for variant calling in this example, specific this function:
   --input_template GenCompass_WGS/batch_builder/templates/variant_calling.input_template.json 
 
 ```
+
 it will generate the swarm file `gencompass_workflow_test_variant_calling.swarm`
 
 or just output all of it 
 
+
 ```
-
-
-
+python GenCompass_WGS/batch_builder/prepare_gencompass.py \
+all \
+--project_parameters ./set1.json
 ```
 
 Once all files are prepared. put the BAM files in the created folder according to generated json `./inputs/variant_calling_inputs/TCGA_1_variant_calling_input.json` as example
@@ -114,6 +116,8 @@ the file look like:
     }
 
 ```
+
+Once done, run the swarm file. 
 
 ### Next step: 
 
